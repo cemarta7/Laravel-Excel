@@ -5,6 +5,7 @@ namespace Maatwebsite\Excel\Readers;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Maatwebsite\Excel\Filters\ChunkReadFilter;
+use Opis\Closure\SerializableClosure;
 use SuperClosure\Serializer;
 
 class ChunkedReadJob implements ShouldQueue
